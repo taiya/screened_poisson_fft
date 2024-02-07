@@ -3,7 +3,7 @@
 Given an image of gradients $n_x, n_y$, and a screening image $\bar{f}$, solve for:
 
 $$
-\argmin_f \| \nabla_x f = \bar{n}_x \|_2^2 + \| \nabla_y f = \bar{n}_y \|_2^2 + 
+\argmin_f \| \nabla_x f - \bar{n}_x \|_2^2 + \| \nabla_y f - \bar{n}_y \|_2^2 + 
 \lambda \| f - \bar{f} \|_2^2
 $$
 
